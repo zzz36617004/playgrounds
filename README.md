@@ -1,2 +1,2 @@
-# 숙제
-- 숙제숙제
+# PlayGround
+- Toy Project using react, webpack, MongoDB

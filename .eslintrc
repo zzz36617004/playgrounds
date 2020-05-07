@@ -14,5 +14,10 @@
   },
   "rules": {
     "prettier/prettier": "error"
-  }
+  },
+  "import.extensions": [
+    {
+      "jsx": "never", "js":"never"    //import시 
+    }
+  ]
 }
