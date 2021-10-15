@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": ["airbnb", "prettier", "prettier/react"],
+  "plugins": ["prettier"],
+  "env": {
+    "es6": true,
+    "browser" : true
+  },
+  "rules": {
+    "prettier/prettier": "error"
+  },
+  "import.extensions": [
+    {
+      "jsx": "never", "js":"never"    //import시 
+    }
+  ]
+}
